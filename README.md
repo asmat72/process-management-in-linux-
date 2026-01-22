@@ -2,6 +2,8 @@
 
 ## ***📌 Overview -***: This repository contains the deliverables for Process Management in Linux. The goal of this task is to demonstrate the ability to manage and control system processes confidently using both the Linux CLI and optional GUI tools.
 
+## ***git clone this repo*** : ***https://github.com/asmat72/process-management-in-linux-.git*** 
+
 ## ***🛠️ Tools Used -***:
 
 - *Primary:* Linux Command Line Interface (CLI)
@@ -29,6 +31,8 @@
 - Competence in managing services (`systemctl start/stop/restart/reload`). 
 - Skill in enabling services at boot. - Monitoring and analyzing resource usage (CPU, memory, I/O, network).
 - Recording and documenting findings in a professional format.
+
+## ***📌 Note on PDF/Video Output Not Opening from GitHub Repo*** : ***After uploading output files (PDF, video) to GitHub, they do not open once downloaded.***
 
 ## ***👨‍💻 Credits***:
   Created by ***ASMATULLAH KHAN***
