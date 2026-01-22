@@ -2,11 +2,11 @@
 
 ## ***📌 Overview -***: This repository contains the deliverables for ***Process Management in Linux***. The goal of this task is to demonstrate the ability to manage and control system processes confidently using both the Linux CLI and optional GUI tools.
 
-## ***🛠️ Tools Used -*** : 
+## ***🛠️ Tools Used -***
         - *Primary:* Linux Command Line Interface (CLI) 
         - *Alternative:* `systemctl` GUI (e.g., GNOME Services)
 
-## ***🧾 Hints / Mini Guide*** :  
+## ***🧾 Hints / Mini Guide*** 
         
         1. *List running processes* using `ps`, `top`. 
         2. *Kill processes* using `kill` and `kill -9`. 
@@ -19,7 +19,7 @@
 ## ***🎯 Deliverables*** : - *Process Management Report* (`process_management_report.md`)
                             - *Process Management Outputs* ('Video and PDF file') 
 
-## ***✅ Final Outcome By completing this task, the intern demonstrates*** :
+## ***✅ Final Outcome By completing this task, the intern demonstrates***
        
          - Ability to list and interpret running processes.
          - Confidence in sending signals to processes (`SIGTERM`, `SIGKILL`).
@@ -29,4 +29,4 @@
          - Recording and documenting findings in a professional format.
 
 ## ***👨‍💻 Credits***:
-         Created by ***ASMATULLAH KHAN***
+         Created by ASMATULLAH KHAN
