@@ -7,6 +7,7 @@
         - *Alternative:* `systemctl` GUI (e.g., GNOME Services)
 
 ## ***🧾 Hints / Mini Guide*** :  
+        
         1. *List running processes* using `ps`, `top`. 
         2. *Kill processes* using `kill` and `kill -9`. 
         3. *Understand process states* (R, S, D, T, Z). 
@@ -19,9 +20,13 @@
                             - *Process Management Outputs* ('Video and PDF file') 
 
 ## ***✅ Final Outcome By completing this task, the intern demonstrates*** :
+       
          - Ability to list and interpret running processes.
          - Confidence in sending signals to processes (`SIGTERM`, `SIGKILL`).
          - Understanding of process states (running, sleeping, zombie, etc.). 
          - Competence in managing services (`systemctl start/stop/restart/reload`). 
          - Skill in enabling services at boot. - Monitoring and analyzing resource usage (CPU, memory, I/O, network).
          - Recording and documenting findings in a professional format.
+
+## ***👨‍💻 Credits***:
+         Created by ***ASMATULLAH KHAN***
