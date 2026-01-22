@@ -1,0 +1,34 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  1.7  0.3  21908 12540 ?        Ss   08:19   0:03 /sbin/init
+root           2  0.0  0.0   3120  2176 ?        Sl   08:19   0:00 /init
+root           9  0.0  0.0   3120  1792 ?        Sl   08:19   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          70  0.4  0.3  42308 15616 ?        S<s  08:19   0:00 /usr/lib/systemd/systemd-journald
+root         146  0.2  0.1  25404  6272 ?        Ss   08:19   0:00 /usr/lib/systemd/systemd-udevd
+root         226  0.0  0.0   3124   896 ?        Ss   08:19   0:00 /init
+root         227  0.0  0.0   3140  1156 ?        S    08:19   0:00 /init
+asmat        228  0.1  0.2  10004  9088 pts/0    Ss   08:19   0:00 -bash
+root         229  0.0  0.1   6692  4096 pts/1    Ss   08:19   0:00 /bin/login -f
+systemd+     287  0.1  0.3  21456 12672 ?        Ss   08:19   0:00 /usr/lib/systemd/systemd-resolved
+root         303  0.8  0.9 1255072 37504 ?       Ssl  08:19   0:01 /home/asmat/alertmanager-0.28.1.linux-amd64/alertmanager --config.file=/home/asmat/alertmanager-0.28.1.linux-amd64/alertmanager.yml --storage.path=/home/asmat/alertmanager-0.28.1.linux-amd64/data
+root         304  0.0  0.0   4236  2432 ?        Ss   08:19   0:00 /usr/sbin/cron -f -P
+message+     305  0.2  0.1   9640  4864 ?        Ss   08:19   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         313  2.2  3.2 1549136 128100 ?      Ssl  08:19   0:03 /home/asmat/prometheus-3.6.0.linux-amd64/prometheus --config.file=/home/asmat/prometheus-3.6.0.linux-amd64/prometheus.yml --storage.tsdb.path=/home/asmat/prometheus-3.6.0.linux-amd64/data
+root         318  0.1  0.2  18148  8064 ?        Ss   08:19   0:00 /usr/lib/systemd/systemd-logind
+root         322  0.2  0.3 1756620 14720 ?       Ssl  08:19   0:00 /usr/libexec/wsl-pro-service
+root         332  0.0  0.2  19552  8192 ?        Ss   08:19   0:00 (agetty)
+root         336  0.0  0.0   3116  1792 tty1     Ss+  08:19   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+syslog       345  0.1  0.1 222508  5504 ?        Ssl  08:19   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         356  0.2  0.5 107004 22528 ?        Ssl  08:19   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         416  0.6  1.2 1876240 51376 ?       Ssl  08:19   0:01 /usr/bin/containerd
+asmat        604  0.3  0.2  20408 11136 ?        Ss   08:19   0:00 /usr/lib/systemd/systemd --user
+asmat        625  0.0  0.0  21152  3520 ?        S    08:19   0:00 (sd-pam)
+asmat        821  0.1  0.2   9888  8960 pts/1    S+   08:19   0:00 -bash
+root        1082  1.6  2.0 2051852 80128 ?       Ssl  08:19   0:02 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1159  0.1  0.1  14312  6996 pts/0    S+   08:20   0:00 sudo su
+root        1174  0.0  0.0  14312  2532 pts/2    Ss   08:20   0:00 sudo su
+root        1175  0.0  0.1   6796  4096 pts/2    S    08:20   0:00 su
+root        1178  0.2  0.2  20408 11136 ?        Ss   08:20   0:00 /usr/lib/systemd/systemd --user
+root        1179  0.0  0.0  21156  3376 ?        S    08:20   0:00 (sd-pam)
+root        1201  0.0  0.1   5124  4096 pts/2    S    08:20   0:00 bash
+root        1507 14.2  0.1   8280  4096 pts/2    R+   08:22   0:00 ps aux
+root        1508  0.0  0.0   3512  2304 pts/2    S+   08:22   0:00 less

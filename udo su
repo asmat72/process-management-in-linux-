@@ -1,0 +1,35 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  1 08:19 ?        00:00:03 /sbin/init
+root           2       1  0 08:19 ?        00:00:00 /init
+root           9       2  0 08:19 ?        00:00:00  \_ plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root         226       2  0 08:19 ?        00:00:00  \_ /init
+root         227     226  0 08:19 ?        00:00:00  |   \_ /init
+asmat        228     227  0 08:19 pts/0    00:00:00  |       \_ -bash
+root        1159     228  0 08:20 pts/0    00:00:00  |           \_ sudo su
+root        1174    1159  0 08:20 pts/2    00:00:00  |               \_ sudo su
+root        1175    1174  0 08:20 pts/2    00:00:00  |                   \_ su
+root        1201    1175  0 08:20 pts/2    00:00:00  |                       \_ bash
+root        1508    1201  0 08:22 pts/2    00:00:00  |                           \_ less
+root        1588    1201  0 08:25 pts/2    00:00:00  |                           \_ ps -ef --forest
+root        1589    1201  0 08:25 pts/2    00:00:00  |                           \_ less
+root         229       2  0 08:19 pts/1    00:00:00  \_ /bin/login -f
+asmat        821     229  0 08:19 pts/1    00:00:00      \_ -bash
+root          70       1  0 08:19 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         146       1  0 08:19 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+systemd+     287       1  0 08:19 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root         303       1  0 08:19 ?        00:00:02 /home/asmat/alertmanager-0.28.1.linux-amd64/alertmanager --config.file=/home/asmat/alertmanager-0.28.1.linux-amd64/alertmanager.yml --storage.path=/home/asmat/alertmanager-0.28.1.linux-amd64/data
+root         304       1  0 08:19 ?        00:00:00 /usr/sbin/cron -f -P
+message+     305       1  0 08:19 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         313       1  1 08:19 ?        00:00:04 /home/asmat/prometheus-3.6.0.linux-amd64/prometheus --config.file=/home/asmat/prometheus-3.6.0.linux-amd64/prometheus.yml --storage.tsdb.path=/home/asmat/prometheus-3.6.0.linux-amd64/data
+root         318       1  0 08:19 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         322       1  0 08:19 ?        00:00:00 /usr/libexec/wsl-pro-service
+root         332       1  0 08:19 ?        00:00:00 (agetty)
+root         336       1  0 08:19 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+syslog       345       1  0 08:19 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         356       1  0 08:19 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         416       1  0 08:19 ?        00:00:01 /usr/bin/containerd
+asmat        604       1  0 08:19 ?        00:00:00 /usr/lib/systemd/systemd --user
+asmat        625     604  0 08:19 ?        00:00:00  \_ (sd-pam)
+root        1082       1  0 08:19 ?        00:00:02 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1178       1  0 08:20 ?        00:00:00 /usr/lib/systemd/systemd --user
+root        1179    1178  0 08:20 ?        00:00:00  \_ (sd-pam)
