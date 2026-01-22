@@ -32,7 +32,7 @@
 - Skill in enabling services at boot. - Monitoring and analyzing resource usage (CPU, memory, I/O, network).
 - Recording and documenting findings in a professional format.
 
-## ***📌 Note on PDF/Video Output Not Opening from GitHub Repo*** : ***After uploading output files (PDF, video) to GitHub, they do not open once downloaded.***
+## ***📌 Note on PDF/Video Output Not Opening from GitHub Repo*** : ***After uploading output files (PDF, video) to GitHub, they do not open once download.***
 
 ## ***👨‍💻 Credits***:
   Created by ***ASMATULLAH KHAN***
